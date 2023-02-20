@@ -4,16 +4,7 @@
     <option name="autoReloadType" value="SELECTIVE" />
   </component>
   <component name="ChangeListManager">
-    <list default="true" id="7c86f5ad-4211-4b4a-b87e-cd94d28b5220" name="Changes" comment="">
-      <change afterPath="$PROJECT_DIR$/.idea/jpa-buddy.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/.idea/misc.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/.idea/modules.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/.idea/vcs.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/algorithm-2023.iml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/part1/Chapter1.md" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/part1/MergeSortGPT.java" afterDir="false" />
-    </list>
+    <list default="true" id="7c86f5ad-4211-4b4a-b87e-cd94d28b5220" name="Changes" comment="Make Repository&#10;Chapter1.md 작성&#10;---------------&#10;My Version&#10;&#10;---------------&#10;ChatGPT Version&#10;add MergeSortGPT.java" />
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
     <option name="HIGHLIGHT_NON_ACTIVE_CHANGELIST" value="false" />
@@ -52,11 +43,23 @@
       <option name="number" value="Default" />
       <option name="presentableId" value="Default" />
       <updated>1676908567653</updated>
-      <workItem from="1676908568680" duration="3747000" />
+      <workItem from="1676908568680" duration="3846000" />
     </task>
+    <task id="LOCAL-00001" summary="Make Repository&#10;Chapter1.md 작성&#10;---------------&#10;My Version&#10;&#10;---------------&#10;ChatGPT Version&#10;add MergeSortGPT.java">
+      <created>1676913967160</created>
+      <option name="number" value="00001" />
+      <option name="presentableId" value="LOCAL-00001" />
+      <option name="project" value="LOCAL" />
+      <updated>1676913967160</updated>
+    </task>
+    <option name="localTasksCounter" value="2" />
     <servers />
   </component>
   <component name="TypeScriptGeneratedFilesManager">
     <option name="version" value="3" />
+  </component>
+  <component name="VcsManagerConfiguration">
+    <MESSAGE value="Make Repository&#10;Chapter1.md 작성&#10;---------------&#10;My Version&#10;&#10;---------------&#10;ChatGPT Version&#10;add MergeSortGPT.java" />
+    <option name="LAST_COMMIT_MESSAGE" value="Make Repository&#10;Chapter1.md 작성&#10;---------------&#10;My Version&#10;&#10;---------------&#10;ChatGPT Version&#10;add MergeSortGPT.java" />
   </component>
 </project>
