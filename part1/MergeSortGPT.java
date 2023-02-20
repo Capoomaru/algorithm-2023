@@ -1,5 +1,6 @@
 /*
-request : make some code which do merge sort in java
+생성일 : 2023/2/21
+요청 사항 : make some code which do merge sort in java
 
 This implementation uses a recursive divide-and-conquer approach to sort the array.
 
