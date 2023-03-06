@@ -1,8 +1,35 @@
-# Chapter 1
-## Sorting
-### Comparable interface
-### Selection Sort
-### Insertion Sort
+# Chapter 1 : Sorting
+## Comparable interface
+## Selection Sort(선택 정렬)
+리스트 내의 정렬되지 않은 부분 전체에서부터 최소값을 찾아서 찾는 자리수의 값과 교환 \
+### 성능
+* 비교 연산 : $~ N^2/2$
+* 교환 연산 : $~ N$
+특징
+* 입력 데이터의 상태와 무관(일부 정렬/완전 비정렬)
+* 데이터 이동이 최소화 -> 데이터 이동의 비용이 큰 시스템이 용이
+* 제자리 정렬 -> 메모리를 추가로 사용하지 않음
+* not stable -> 같은 값이 있을 때 기존 순서가 지켜지지 않음
+
+---
+### ✔︎ assert란?
+assert는 jdk 1.4부터 지원되는 단언문으로 객체가 아닌 예약어이다. \
+아래의 코드와 같이 assert 뒤의 결과값으로 false가 반환되면 AssertionError 예외(Exception)가 발생한다.\
+디버깅 용도로 활용되므로 동작을 위해서 -ea 옵션을 붙여서 컴파일하여야한다.\
+```java
+assert isSorted(list);
+```
+참고문헌 : [블로그 - offbyone.tistory.com](https://offbyone.tistory.com/294)
+
+## Insertion Sort
+리스트 내부의 정렬된 리스트를 만들고 다음 값을 정렬된 리스트에 주입함
+
+### 성능
+* 비교 연산(최악) : $~ N^2/2$
+* 교환 연산(최악) : $~ N^2/2$
+* 비교 연산(최선) : $~ N$
+* 교환 연산(최선) : 0
+
 ### Shell Sort
 ### Selection Sort
 ## 선형 정렬
