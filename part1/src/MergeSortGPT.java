@@ -1,4 +1,4 @@
-/*
+package src;/*
 생성일 : 2023/2/21
 요청 사항 : make some code which do merge sort in java
 
