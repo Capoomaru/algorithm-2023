@@ -45,7 +45,7 @@ public class ComparableMain {
             };
             ;
 
-            if (date == null || day != date)
+            if (date == 0 || day != date)
                 return false;
 
             return true;

@@ -25,9 +25,9 @@ public abstract class AbstractSort {
         System.out.println();
     }
 
-    protected static boolean isSorted(Comparable[] a) {
-        for (int i=1;i<a.length;i++)
-            if (less(a[i], a[i-1])) return false;
+    protected static boolean isSorted(Comparable[] list) {
+        for (int i=1;i<list.length;i++)
+            if (less(list[i], list[i-1])) return false;
         return true;
     }
 }

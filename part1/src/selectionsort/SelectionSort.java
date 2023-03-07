@@ -16,4 +16,16 @@ public class SelectionSort extends AbstractSort {
         assert AbstractSort.isSorted(list);
     }
 
+    public static void main(String[] args) {
+        Integer[] list = { 12, 11, 13, 5, 6, 7 };
+
+        System.out.println("Given Array");
+        show(list);
+
+        SelectionSort.sort(list);
+
+        System.out.println("\nSorted array");
+        show(list);
+    }
+
 }
