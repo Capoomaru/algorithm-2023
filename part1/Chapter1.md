@@ -20,7 +20,7 @@
 #### ✔︎ assert란?
 assert는 jdk 1.4부터 지원되는 단언문으로 객체가 아닌 예약어이다. \
 아래의 코드와 같이 assert 뒤의 결과값으로 false가 반환되면 AssertionError 예외(Exception)가 발생한다.\
-디버깅 용도로 활용되므로 동작을 위해서 -ea 옵션을 붙여서 컴파일하여야한다.\
+디버깅 용도로 활용되므로 동작을 위해서 -ea 옵션을 붙여서 컴파일하여야한다.
 ```java
 assert isSorted(list);
 ```
