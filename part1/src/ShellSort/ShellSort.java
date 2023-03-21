@@ -1,8 +1,6 @@
-package src.ShellSort;
+package part1.shellsort;
 
-
-import src.AbstractSort;
-import src.insertionsort.InsertionSort;
+import part1.AbstractSort;
 
 public class ShellSort extends AbstractSort {
 

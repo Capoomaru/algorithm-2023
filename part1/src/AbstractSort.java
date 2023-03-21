@@ -1,4 +1,4 @@
-package src;
+package part1;
 
 public abstract class AbstractSort {
     public static void sort(Comparable[] list) {

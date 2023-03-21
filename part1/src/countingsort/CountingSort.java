@@ -1,6 +1,6 @@
-package src.countingsort;
+package part1.countingsort;
 
-import src.AbstractSort;
+import part1.AbstractSort;
 
 public class CountingSort extends AbstractSort {
 

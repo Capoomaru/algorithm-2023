@@ -1,7 +1,6 @@
-package src.insertionsort;
+package part1.insertionsort;
 
-
-import src.AbstractSort;
+import part1.AbstractSort;
 
 public class InsertionSort extends AbstractSort {
 

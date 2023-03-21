@@ -1,6 +1,6 @@
-package src.selectionsort;
+package part1.selectionsort;
 
-import src.AbstractSort;
+import part1.AbstractSort;
 
 public class SelectionSort extends AbstractSort {
     public static void sort(Comparable[] list) {

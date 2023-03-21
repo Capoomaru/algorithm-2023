@@ -1,4 +1,4 @@
-package src;
+package part1;
 
 public class ComparableMain {
 
@@ -37,7 +37,7 @@ public class ComparableMain {
                 else
                     date = 28;
             }
-            //일수 체크
+            //일수 체크 -> 해당 코드는 JAVA 12에서부터 허용됨 https://www.baeldung.com/spring-boot-3-spring-6-new
             date = switch (month) {
                 case 1, 3, 5, 7, 8, 10, 12 -> 31;
                 case 4, 6, 9, 11 -> 30;
