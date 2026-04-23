@@ -155,7 +155,7 @@ ex) 키 값의 범위, 키의 기수(자리 수) 등
               int mid = lo + (hi - lo) / 2; 
               sort(list, aux, lo, mid);       
               sort(list, aux, mid + 1, hi);   
-              if(less(list[mid], list[mid + 1]))  //비교 구문 추가
+              if(less(list[mid], list[mid + 1]))  // 비교 구문 추가
                   return;
               merge(list, aux, lo, mid, hi);  
            }
